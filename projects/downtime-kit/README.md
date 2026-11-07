@@ -1,6 +1,6 @@
 # Downtime Kit
 
-The paper packet a nursing unit runs on when the EHR is unavailable, plus the reconciliation that closes the loop when the system returns.
+The paper packet a nursing unit runs on when the EHR is unavailable, plus the reconciliation that closes the loop when the system returns, plus the checker that keeps the kit honest.
 
 ## Why this exists
 
@@ -11,6 +11,11 @@ Downtime is where EHR support earns its keep. Care does not pause for an outage,
 - [Downtime Log Template](downtime-log-template.md): the running record of the outage and everything done on paper during it.
 - [Worked Example Log](example_downtime_log.md): the template completed for a fictional two-hour outage during an evening med pass.
 - [Recovery Reconciliation Checklist](recovery-reconciliation-checklist.md): the ordered back-entry and verification process that proves nothing documented on paper was lost.
+- kit_check.py and kit_inventory.csv: a small checker that reads a unit's kit inventory and flags items that are short or stale (not checked within 14 days). Run it:
+
+      python3 kit_check.py kit_inventory.csv
+
+  The sample inventory deliberately contains a short item, an empty item, and two stale checks, so the checker reports four problems and a NOT ready verdict. A ready kit is the only acceptable result.
 
 ## Kit rules
 
