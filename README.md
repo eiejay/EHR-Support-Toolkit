@@ -6,7 +6,13 @@ This repository collects the working templates and checklists used in EHR suppor
 
 Everything here is a template or procedure. It contains no patient information and no facility data.
 
-## Contents
+## Projects
+
+1. [Ticket Priority Tool](projects/ticket-priority-tool/): a small Python tool that scores an incoming EHR ticket and assigns a priority with a response target and first steps.
+2. [Downtime Kit](projects/downtime-kit/): the paper packet a unit runs on when the EHR is down, plus the recovery reconciliation that closes the loop afterward.
+3. [QuickMAR and PointClickCare Support Notes](projects/quickmar-support-notes/): floor-level support notes for medication administration workflows in long-term care: med pass, barcode scanning, and eMAR troubleshooting.
+
+## Reference documents
 
 - [Ticket Triage Guide](ticket-triage-guide.md): how an EHR support ticket gets received, categorized, prioritized, and routed.
 - [Downtime Procedures](downtime-procedures.md): what to do when the EHR is unavailable, from paper backup forms to recovery documentation.
