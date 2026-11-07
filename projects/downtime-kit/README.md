@@ -9,6 +9,7 @@ Downtime is where EHR support earns its keep. Care does not pause for an outage,
 ## Contents
 
 - [Downtime Log Template](downtime-log-template.md): the running record of the outage and everything done on paper during it.
+- [Worked Example Log](example_downtime_log.md): the template completed for a fictional two-hour outage during an evening med pass.
 - [Recovery Reconciliation Checklist](recovery-reconciliation-checklist.md): the ordered back-entry and verification process that proves nothing documented on paper was lost.
 
 ## Kit rules

@@ -2,9 +2,22 @@
 
 Floor-level support notes for medication administration workflows in long-term care, written from the support side of the med cart: what breaks during med pass, what it usually is, and how to get the nurse moving again without cutting corners on safety.
 
+## Files
+
+- issue_index.csv: this page as a table: symptom, first checks, likely causes, and the escalation line for each. Built to be searched, filtered, or loaded into a knowledge base.
+
 ## The med pass rule
 
 Every fix during med pass is judged by one standard: the right resident, the right medication, the right dose, the right route, the right time, with the scan and the documentation to prove it. A workaround that skips verification is never the fix.
+
+## First minute flowchart
+
+When a nurse waves support over during a pass, the first minute runs the same way:
+
+1. What exactly is blocked: scanning, finding the medication, signing off, or the count?
+2. Is it this resident, this medication, this cart, or every cart? The scope names the layer.
+3. Run the matching row in the issue index.
+4. If the fix is not obvious in five minutes, escalate with the facts gathered, not with a shrug.
 
 ## Common issues and first responses
 
