@@ -1,0 +1,33 @@
+category,text
+access,I cannot log in it says my password expired and the reset email never arrives
+access,New nurse starting Monday needs an account created and her badge activated
+access,Locked out after too many failed attempts please unlock my account before med pass
+access,The doctor cannot sign in from home remote login rejects his credentials every time
+access,My account was disabled while I was on leave can someone reactivate it today
+access,Password reset link sends me in circles and I still cannot get into my account
+access,Two factor code never arrives by text so I cannot finish signing in at the workstation
+access,Agency nurse needs temporary login access for her three shifts this week
+workflow,The med pass screen freezes every time I scan a wristband and I have to restart
+workflow,Saving the admission form fails because a required field does not apply to this patient
+workflow,Labels keep printing to the wrong printer on the unit down the hall
+workflow,The census list does not refresh so new admissions do not appear for the nurses
+workflow,Charting a note takes six clicks since the update and half my note disappeared once
+workflow,The order set defaults to the wrong dose and I have to correct it every single time
+workflow,Scanning the medication barcode beeps an error even though the med matches the order
+workflow,The discharge workflow will not complete because a signature step is stuck pending
+data,Lab results posted to the wrong patient chart this morning and need correction
+data,Vital signs from the bedside monitor stopped flowing into the chart for bed twelve
+data,The discharge summary pulled an old medication list instead of the current one
+data,This patient has duplicate charts and the record is split across two accounts
+data,Weights entered on the scale show up in pounds in one place and kilograms in another
+data,The allergy list lost the penicillin entry after the record merged last night
+data,Insurance information on the face sheet is from a previous visit not the current one
+data,Blood pressure readings are charting an hour later than when they were taken
+system,The whole application is down on our unit nobody can chart or see any orders
+system,Server error appears when anyone opens a chart the application crashed for everyone
+system,Network outage on the third floor every workstation lost its connection
+system,The interface engine stopped sending admission messages to pharmacy overnight
+system,System is extremely slow for the entire building since the patch went in
+system,Nobody in the facility can reach the application it times out at the login page
+system,The database failover alarm fired and the application restarted twice this morning
+system,All printers and scanners in the building show offline after the network change
